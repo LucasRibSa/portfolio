@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Krona+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #000;
+    color: #fff;
+}
+
+.destaque-titulo{
+    color: #5bf800;
+}
+
+.apresentacao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10% 10%;
+}
+
+.foto-lucas {
+    height: 30%;
+    border-radius: 10%;
+    width: 30%;
+}
+
+.apresentacao-conteudo {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.apresentacao-conteudo-titulo {
+    font-size: 36px;
+    text-align: center;
+    font-family: 'Krona One', sans-serif;
+
+}
+.apresentacao-conteudo-paragrafo {
+    font-size: 20px;
+    margin-top: 5%;
+    font-family: 'Inconsolata', monospace;
+}
+.destaque-paragrafo {
+    color: #5bf800;
+}
+.apresentacao-links {
+    display: flex;
+    margin-top: 3%;
+    justify-content: space-evenly;
+}
+.apresentacao-links-botao {
+    background-color: #5bf800;
+    width: 200px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 20px;
+    padding: 21.5px 0;
+    color: #000;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
