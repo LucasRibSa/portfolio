@@ -15,6 +15,9 @@ body {
 .destaque-titulo{
     color: #5bf800;
 }
+.destaque-titulo:hover{
+    color: aqua;
+}
 
 .apresentacao {
     display: flex;
@@ -50,19 +53,40 @@ body {
 .destaque-paragrafo {
     color: #5bf800;
 }
+.destaque-paragrafo:hover{
+    color: aqua;
+}
 .apresentacao-links {
     display: flex;
+
+    align-items: center;
     margin-top: 3%;
+    gap: 32px;
     justify-content: space-evenly;
 }
+.apresentacao-conteudo-subtitulo {
+    font-family: 'Krona One', sans-serif; 
+    margin-top: 35px;
+    font-weight: 400;
+    font-size: 24px; 
+    text-align: center;
+}
 .apresentacao-links-botao {
-    background-color: #5bf800;
+    /* background-color: #5bf800; */
+    display: flex;
+    justify-content: center;
+    gap: 7px;
     width: 200px;
     text-align: center;
-    border-radius: 16px;
+    border-radius: 8px;
     font-size: 20px;
     padding: 21.5px 0;
-    color: #000;
+    border: 3px solid #5bf800;
+    color: #f6f6f6;
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.apresentacao-links-botao:hover {
+    background-color: #272727;
+    border-color: aqua;
 }
